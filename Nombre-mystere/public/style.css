@@ -1,0 +1,46 @@
+body {
+    background-color: #fff200;
+}
+
+h1 {
+    color: #DE0024;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 120px;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 50px;
+}
+
+#chiffre {
+    font-size: 80px;
+    color: #DE0024;
+}
+
+p {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+
+#restart {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+#win {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}

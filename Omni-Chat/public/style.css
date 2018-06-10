@@ -1,0 +1,43 @@
+body {
+    background-color: #2c2c54;
+    font-family: 'Roboto', sans-serif;
+}
+
+#zone_chat strong {
+    color: #ff5252;
+    background-color: #2c2c54;
+    padding: 3px;
+    margin-right: 2px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ff5252;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+form {
+    margin: 0 auto;
+    width: 610px;    
+}
+
+section {
+    margin: 0 auto;
+    width: 610px;
+    height: 500px;
+    border: 1px solid #aaa69d;
+    overflow: auto;
+    background-color: #f7f1e3;
+}
+
+#zone_chat i {
+    font-weight: lighter;
+    color: #ff5252;
+    margin-right: 2px;
+}
+
+p {
+    color: #84817a;
+}

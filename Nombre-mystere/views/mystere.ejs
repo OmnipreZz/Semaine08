@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nombre Mystère</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Nombre Mystère</h1>
+
+    <form action="mystere" method="post">
+        <label for="nbr">Entrez un nombre entre 0 et 9</label><br>
+        <input type="number" id="nbr" name="num" autofocus required pattern="[0-9]{1,}">
+        <input type="submit" value="OK">
+    </form>
+    <div>
+        <p id="chiffre">
+            <%= number %>
+        </p>
+        <p>
+            <%= message %>
+        </p>
+
+    </div>
+
+</body>
+
+</html>
