@@ -1,5 +1,5 @@
 
-var socket = io.connect('http://localhost:8080');
+var socket = io
 
 function heure() {
     return (moment().format('HH:mm:ss')); // ici ma fonction pour trouver l'heure avec moment.js
