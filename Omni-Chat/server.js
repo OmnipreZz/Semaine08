@@ -24,7 +24,7 @@ app.use(function (req, res, next) {
 });
 
 //server sur port 8080
-server = app.listen(8080);
+server = app.listen(process.env.PORT || 8080);
 
 
 //on require socket.io
